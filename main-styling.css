@@ -3,7 +3,7 @@
   font-family: monospace;
 }
 body{
-  margin:0px;
+  margin-top: 0px;
   background-color: #9f9f9f;
 }
 .index-header{
@@ -13,6 +13,7 @@ body{
   align-items: center;
   height: 80px;
   width: 100%;
+  border-radius: 15px;
 }
 
 .header-title{
@@ -54,12 +55,34 @@ body{
   background-image: url(./images/game_background.png);
   background-position: center;
   border-radius: 15px;
-  margin:5px;
   height:540px;
-
+  margin-top: 5px;
+  margin-bottom:5px;
 }
 .intro-text{
   text-align: center;
   color: white;
   font-size: 50px;
+}
+
+.main-text{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background: #3D4246;
+  border-radius: 15px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
+.main-text-title{
+  font-size: 50px;
+}
+
+.main-text-body{
+  font-size: 25px;
+  margin: 5px;
+
 }

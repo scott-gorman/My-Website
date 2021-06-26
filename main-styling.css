@@ -1,5 +1,65 @@
-h1 {
-  text-align: center;
+* {
+  box-sizing: border-box;
   font-family: monospace;
+}
+body{
+  margin:0px;
+  background-color: #9f9f9f;
+}
+.index-header{
+  background: #3D4246;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
 
+.header-title{
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  flex-basis: 50%;
+}
+
+.github-logo-link {
+  height:50px;
+  background: white;
+  border:1px solid gray;
+}
+.github-logo-link:hover{
+  border:1px solid black;
+}
+
+.header-directory{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-links{
+  text-decoration: none;
+  color: white;
+}
+
+.header-links:hover{
+  color: #57b4ff;
+}
+.intro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width:100%;
+  background-image: url(./images/game_background.png);
+  background-position: center;
+  border-radius: 15px;
+  margin:5px;
+  height:540px;
+
+}
+.intro-text{
+  text-align: center;
+  color: white;
+  font-size: 50px;
 }
